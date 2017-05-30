@@ -1,0 +1,104 @@
+/* GEN */
+
+.container {
+  width: 100%;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+h3 {
+  font-family: 'Slabo 27px', serif;
+  color: white;
+}
+
+p {
+  font-family: 'Slabo 27px', serif;
+  color: white;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+/* LANDING */
+#land {
+  background-color: #F0CA4D;
+  height: 30rem;
+  width: 100%;
+}
+
+#land h2 {
+  margin-top: -1rem;
+}
+
+#land h3 {
+  margin-top: 1rem;
+}
+
+#land p {
+  margin-top: 5rem;
+}
+
+.head {
+  display: inline-block;
+  float: left;
+}
+
+.nav {
+  float: right;
+  height: 50px;
+  display: inline-block;
+}
+
+.nav img{
+  width: 40px;
+  height: 40px;
+  margin-top: 4rem;
+}
+
+/*EAMPLE WORK*/
+
+.example {
+  background-color: #DE5B49;
+  height: auto;
+}
+
+.example h2 {
+  margin-top: 2rem;
+}
+
+.example img {
+  padding: 5px;
+  background-color: white;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+
+/*       MEDIA QUERIES        */
+
+@media only screen and (min-width: 700px) {
+  /*    LAND    */
+  #land h3 {
+    margin-top: 5rem;
+  }
+  #land h3,
+  h2 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+    #land p {
+    margin:  5rem 15rem;
+  }
+
+  /*    EXMAPLES    */
+  .example img {
+    max-width: 40%;
+    margin-top: 2rem;
+    margin-left: 5rem;
+  }
+
+}
