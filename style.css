@@ -24,7 +24,7 @@ p {
 /* LANDING */
 #land {
   background-color: #F0CA4D;
-  height: 30rem;
+  height: auto;
   width: 100%;
 }
 
@@ -38,6 +38,7 @@ p {
 
 #land p {
   margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .head {
