@@ -33,7 +33,7 @@ p {
 }
 
 #land h3 {
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
 
 #land p {
@@ -42,14 +42,16 @@ p {
 }
 
 .head {
-  display: inline-block;
+  display: block;
   float: left;
+  width: 60%;
 }
 
 .nav {
-  float: right;
   height: 50px;
-  display: inline-block;
+  display: block;
+  text-align: right;
+  width: 40%;
 }
 
 .nav img{
@@ -59,7 +61,6 @@ p {
 }
 
 /*EAMPLE WORK*/
-
 .example {
   background-color: #DE5B49;
   height: auto;
@@ -80,7 +81,6 @@ p {
 
 
 /*       MEDIA QUERIES        */
-
 @media only screen and (min-width: 700px) {
   /*    LAND    */
   #land h3 {
